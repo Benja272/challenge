@@ -1,5 +1,5 @@
 from dateutil import rrule
-
+# To calculate the "annualized return" i assume that the period is months.
 class Portfolio:
     def __init__(self):
         self.stocks = []
